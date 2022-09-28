@@ -5,59 +5,59 @@ Kyleigh Kuball
 
 ## Introduction
 
-Satellite imagery is a powerful tool that has been used to study animal
-populations, tree cover, and is slowly expanding to use in other areas
-of study (LaRue, Stapleton, & Anderson 2017). Satellite imagery has been
-used to study fish populations as well as coral reef structure (Madin &
-Foley 2021; Madin & Madin 2015). Further studies will continue to use
-satellite imagery and spatial resolution to measure features pertinent
-to areas of research (Madin & Madin 2015). Moving forward it is
-important to understand the how satellite imagery spatial resolution
-affects measurements of research data within research sites. This study
-looked at three methods of measurement (GPS, transect, and satellite
-data) in regards to the benefits and disadvantages of each method.
+Satellite imagery is a powerful tool used to study animal populations
+and tree cover and is slowly expanding to use in other areas of study
+(LaRue, Stapleton, & Anderson 2017). Satellite imagery has been used to
+study fish populations and coral reef structures (Madin & Foley 2021;
+Madin & Madin 2015). Further studies will continue to use satellite
+imagery and spatial resolution to measure features pertinent to research
+areas (Madin & Madin 2015). Moving forward, it is essential to
+understand how satellite imagery spatial resolution affects measurements
+of research data within research sites. This study looked at three
+measurement methods (GPS, transect, and satellite data) regarding the
+benefits and disadvantages of each technique.
 
 ## Materials & Methods
 
-This study was conducted in Kāneʻohe Bay, Hawaiʻi at reef patches 20 and
-22. Transect and gps data was taken by two groups of 3 snorkelers
+This study was conducted in Kāneʻohe Bay, Hawaiʻi, at reef patches 20
+and 22. Transect and GPS data was taken by two groups of 3 snorkelers
 swimming the perimeter of each patch reef. Transects were laid out end
-over end to measure the perimeter while one person in the group of 3
-followed with a GPS. Satellite imagery was taken from multiple dates via
-Google Earth Pro (v.7.3.4.8642) and Planet Explorer. Perimeter within
-the satellite data was taken using the polygon tool in both instances
-and then calculating the area of a circle
+over end to measure the circumference, while one person in the group of
+3 followed with a GPS. Satellite imagery was taken from multiple dates
+via Google Earth Pro (v.7.3.4.8642) and Planet Explorer. Perimeter
+within the satellite data was taken using the polygon tool in both
+instances and then calculated the area of a circle
 (((perimeter/(2*PI()))^2)*PI()) via Excel(v. 16.65). All data was then
 compiled into R Studio (v. 2022.07.1) for analysis.
 
 ## Results
 
 Overall, Figure 1 illustrates that GPS has a higher estimate of area,
-imagery has a lot of outliers and is quite variable, and the transect
-data appears to have the least outliers and smallest average. However,
-the average between imagery and transect appear to be similar. Figure 2
-illustrates the significant correlation (t = 9.43, p = \<2e-16) that the
-better the imagery resolution, the smaller the estimate for the patch
-reef area. It appears that the area is estimated to be greater when the
-resolution is poor. In relation, a significant correlation was found
-between the resolution and the perimeter (t = 8.493, p = 2.32e-15);
-Figure 3 illustrates this correlation that the greater the resolution,
-the greater the estimate of the perimeter. Figure 4 shows that the reef
-is increasing in area as time increases. The linear model run shows that
-this increase shown in Figure 4 is statistically significant (t = 3.209,
-p = 0.00151).
+and imagery has a lot of outliers. It is quite variable, and the
+transect data appears to have the least outliers and most minor
+averages. However, the average between imagery and transect seems to be
+similar. Figure 2 illustrates the significant correlation (t = 9.43, p =
+\<2e-16) that the better the imagery resolution, the smaller the
+estimate for the patch reef area. The area is estimated to be greater
+when the resolution is poor. A significant correlation was found between
+the resolution and the perimeter (t = 8.493, p = 2.32e-15); Figure 3
+illustrates this correlation that the greater the resolution, the
+greater the perimeter estimate. Figure 4 shows that the reef is
+increasing in the area as time increases. The linear model run shows
+that this increase shown in Figure 4 is statistically significant (t =
+3.209, p = 0.00151).
 
 Imagery resolution (t = -2.780, p = 0.00588) and year (t = -2.230, p =
 0.02673) both had a significant correlation with the area and there was
 a significant correlation between imagery resolution and year (t =
 2.785, p = 0.00579). An Analysis of Variance revealed that year may not
-be a significant variable when isolated from imagery resolution however
-when the drop1 function was used, no parameters were suggested to be
-dropped.
+be a significant variable when isolated from imagery resolution;
+however, when the drop1 function was used, no parameters were suggested
+to be dropped.
 
 The relationship between reef number and area is significant (t = -2.95,
-p =0.0059) and there is a negative correlation between the two due to
-reef 22 having a decline in area when compared to reef 20. There appears
+p =0.0059), and there is a negative correlation between the two due to
+reef 22 having a decline in the area compared to reef 20. There appears
 to be no significant interaction between imagery resolution and reef
 number, but there is a significant correlation between imagery
 resolution and area (t = 3.96, p = 0.00039). This means that the
@@ -203,40 +203,40 @@ Analysis on reef identity (reef number):
 
 ## Discussion
 
-In this study, we looked at how spatial resolution affects subject areas
-of research. Overall, we found that resolution can greatly affect the
-perimeter and area of a site, with imagery data being far more variable
-among individuals while the field/transect data seemed to have
-significantly less outliers than the imagery data. The measurements of
-each reef tended to increase as the resolution become poorer, this was
-likely due to a difficulty in determining the edges of each patch reef.
-An interesting find in this data set was that given that the spatial
-imagery resolution gets smaller and better with time, the size of the
-patch reefs would be assumed to decrease as time increases based on the
-figures in this study. Because of the resolution getting better, if the
-reef was not growing or changing, the edges would be easier to identify
-so the area would decrease (Figure 2 & 3). Considering that it is
-increasing, there is likely substantial growth since the resolution
-increasing should be working against the measurements taken.
+This study looked at how spatial resolution affects research subject
+areas. Overall, we found that resolution can greatly affect the
+perimeter and location of a site, with imagery data being far more
+variable among individuals. In contrast, the field/transect data seemed
+to have significantly fewer outliers than the imagery data. The
+measurements of each reef tended to increase as the resolution became
+poorer, likely due to difficulty determining the edges of each patch
+reef. An interesting find in this data set was that given that the
+spatial imagery resolution gets smaller and better with time, the size
+of the patch reefs would be assumed to decrease as time increases based
+on the figures in this study (Figures 2&3). Because of the resolution
+getting better, if the reef were not growing or changing, the edges
+would be easier to identify so that the area would decrease (Figures 2 &
+3). Considering that it is increasing, there is likely substantial
+growth since the resolution increase should work against the
+measurements taken.
 
 In all, there is a balance between imagery measurements and field
-measurements. Imagery measurements are far less time consuming and
+measurements. Imagery measurements are far less time-consuming and
 costly than field data, and more dates and times may be available to
-compare to. However, the field/transect data tends to be a lot more
-accurate with far less outliers than the imagery data which would be
-important in certain research projects. The imagery platform trade-off
+compare. However, the field/transect data tends to be much more
+accurate, with fewer outliers than the imagery data, which would be
+necessary for specific research projects. The imagery platform trade-off
 seems to be the difference in price with the difference in resolution.
-The lower resolution platforms definitely had more variability among
-groups and was far less accurate, however that is the least expensive
-method to monitor the reef long term. As the resolution goes up, the
-price increases and it starts to be a balance of if it is less expensive
-to be in the field or use the imagery data. There is more data available
-in low resolution than there is in high resolution. High resolution
-tends to be expensive and sometimes the clouds are covering the area of
-interest. With low resolution, pictures are taken more often and so
-cloud cover isn’t as big of a deal and it is less expensive. However,
-the area estimate variability goes up by a lot as the resolution becomes
-poorer.
+The lower resolution platforms had more variability among groups and
+were far less accurate; however, that is the least expensive long-term
+method to monitor the reef. As the resolution increases, the price
+increases, and it starts to balance whether it is less costly to be in
+the field or use the imagery data. More data is available in low
+resolution than in high resolution. High resolution tends to be
+expensive, and sometimes the clouds cover the area of interest. Pictures
+are taken more often with low resolution, so cloud cover isn’t as
+troublesome and is less expensive. However, the area estimate
+variability increases significantly as the resolution becomes poorer.
 
 ## References
 

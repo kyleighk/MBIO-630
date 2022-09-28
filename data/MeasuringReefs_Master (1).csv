@@ -1,0 +1,291 @@
+"","reef_no","replicate","perimeter_m","area_m2","imagery_resolution_m","date","method","platform","imagery_type","provider","instrument","observer","notes"
+"1",20,1,142.97,1626.597013,NA,20220923,"transect","boat",NA,NA,"transect tape","JE",NA
+"2",20,1,170.21,2305.474269,NA,20220923,"GPS","boat",NA,NA,"floating GPS","JE",NA
+"3",20,1,148.73,1760.302444,0.15,20130115,"imagery","GE","aerial","unknown","unknown","JE",NA
+"4",20,2,152.52,1851.159027,0.15,20130115,"imagery","GE","aerial","unknown","unknown","JE",NA
+"5",20,3,152.19,1843.15717,0.15,20130115,"imagery","GE","aerial","unknown","unknown","JE",NA
+"6",20,1,142.2,1609.12332,0.5,20130822,"imagery","GE","satellite","DigitalGlobe","WorldView-1/2","JE",NA
+"7",20,2,143.95,1648.972733,0.5,20130822,"imagery","GE","satellite","DigitalGlobe","WorldView-1/2","JE",NA
+"8",20,3,143.61,1641.192412,0.5,20130822,"imagery","GE","satellite","DigitalGlobe","WorldView-1/2","JE",NA
+"9",20,1,137.91,1513.497308,1,20110108,"imagery","GE","satellite","DigitalGlobe","Ikonos","JE",NA
+"10",20,2,139.9,1557.491069,1,20110108,"imagery","GE","satellite","DigitalGlobe","Ikonos","JE",NA
+"11",20,3,145.05,1674.270412,1,20110108,"imagery","GE","satellite","DigitalGlobe","Ikonos","JE",NA
+"12",20,1,137.29,1499.919482,2,20030412,"imagery","GE","satellite","DigitalGlobe","EarlyBird-1 (?)","JE",NA
+"13",20,2,144.44,1660.217913,2,20030412,"imagery","GE","satellite","DigitalGlobe","EarlyBird-1 (?)","JE",NA
+"14",20,3,146.09,1698.365324,2,20030412,"imagery","GE","satellite","DigitalGlobe","EarlyBird-1 (?)","JE",NA
+"15",20,1,149.21,1771.682913,3,20190316,"imagery","PlanetExplorer","satellite","Planet","PlanetScope (formerly Dove CubeSats)","JE",NA
+"16",20,2,143.2,1631.83473,3,20190316,"imagery","PlanetExplorer","satellite","Planet","PlanetScope (formerly Dove CubeSats)","JE",NA
+"17",20,3,161.15,2066.573022,3,20190316,"imagery","PlanetExplorer","satellite","Planet","PlanetScope (formerly Dove CubeSats)","JE",NA
+"18",20,1,135.44,1459.768629,5,20160208,"imagery","PlanetExplorer","satellite","Planet","RapidEye","JE",NA
+"19",20,2,137.23,1498.608745,5,20160208,"imagery","PlanetExplorer","satellite","Planet","RapidEye","JE",NA
+"20",20,3,146.13,1699.295489,5,20160208,"imagery","PlanetExplorer","satellite","Planet","RapidEye","JE",NA
+"21",20,1,167.17,2223.856813,10,20180307,"imagery","PlanetExplorer","satellite","ESA","Sentinel-2","JE",NA
+"22",20,2,159.83,2032.856557,10,20180307,"imagery","PlanetExplorer","satellite","ESA","Sentinel-2","JE",NA
+"23",20,3,183.78,2687.736136,10,20180307,"imagery","PlanetExplorer","satellite","ESA","Sentinel-2","JE",NA
+"24",20,1,NA,NA,30,20190328,"imagery","PlanetExplorer","satellite","USGS","Landsat 8","JE",NA
+"25",20,2,NA,NA,30,20190328,"imagery","PlanetExplorer","satellite","USGS","Landsat 8","JE",NA
+"26",20,3,NA,NA,30,20190328,"imagery","PlanetExplorer","satellite","USGS","Landsat 8","JE",NA
+"27",22,1,107.21,914.6621927,NA,20220923,"transect","boat",NA,NA,"transect tape","JE",NA
+"28",22,1,135.17,1453.954325,NA,20220923,"GPS","boat",NA,NA,"floating GPS","JE",NA
+"29",22,1,116.72,1084.128331,0.15,20130115,"imagery","GE","aerial","unknown","unknown","JE",NA
+"30",22,2,120.3,1151.65233,0.15,20130115,"imagery","GE","aerial","unknown","unknown","JE",NA
+"31",22,3,124.13,1226.150125,0.15,20130115,"imagery","GE","aerial","unknown","unknown","JE",NA
+"32",22,1,110.37,969.375906,0.5,20130822,"imagery","GE","satellite","DigitalGlobe","WorldView-1/2","JE",NA
+"33",22,2,106.36,900.2161362,0.5,20130822,"imagery","GE","satellite","DigitalGlobe","WorldView-1/2","JE",NA
+"34",22,3,109.92,961.4873515,0.5,20130822,"imagery","GE","satellite","DigitalGlobe","WorldView-1/2","JE",NA
+"35",22,1,119.54,1137.147076,1,20110108,"imagery","GE","satellite","DigitalGlobe","Ikonos","JE",NA
+"36",22,2,120.41,1153.75939,1,20110108,"imagery","GE","satellite","DigitalGlobe","Ikonos","JE",NA
+"37",22,3,121.84,1181.326419,1,20110108,"imagery","GE","satellite","DigitalGlobe","Ikonos","JE",NA
+"38",22,1,113.51,1025.317532,2,20030412,"imagery","GE","satellite","DigitalGlobe","EarlyBird-1 (not 100% sure if this sat's imagery is in Google Earth","JE",NA
+"39",22,2,119.11,1128.980876,2,20030412,"imagery","GE","satellite","DigitalGlobe","EarlyBird-1 (not 100% sure if this sat's imagery is in Google Earth","JE",NA
+"40",22,3,123.29,1209.611316,2,20030412,"imagery","GE","satellite","DigitalGlobe","EarlyBird-1 (not 100% sure if this sat's imagery is in Google Earth","JE",NA
+"41",22,1,112.91,1014.506773,3,20190316,"imagery","PlanetExplorer","satellite","Planet","PlanetScope (formerly Dove CubeSats)","JE",NA
+"42",22,2,107.64,922.0139972,3,20190316,"imagery","PlanetExplorer","satellite","Planet","PlanetScope (formerly Dove CubeSats)","JE",NA
+"43",22,3,112.65,1009.839904,3,20190316,"imagery","PlanetExplorer","satellite","Planet","PlanetScope (formerly Dove CubeSats)","JE",NA
+"44",22,1,91.09,660.2851654,5,20160208,"imagery","PlanetExplorer","satellite","Planet","RapidEye","JE",NA
+"45",22,2,99.6,789.4212501,5,20160208,"imagery","PlanetExplorer","satellite","Planet","RapidEye","JE",NA
+"46",22,3,116.18,1074.120191,5,20160208,"imagery","PlanetExplorer","satellite","Planet","RapidEye","JE",NA
+"47",22,1,140.17,1563.50863,10,20180307,"imagery","PlanetExplorer","satellite","ESA","Sentinel-2","JE",NA
+"48",22,2,126.36,1270.60152,10,20180307,"imagery","PlanetExplorer","satellite","ESA","Sentinel-2","JE",NA
+"49",22,3,105.15,879.8501046,10,20180307,"imagery","PlanetExplorer","satellite","ESA","Sentinel-2","JE",NA
+"50",22,1,NA,NA,30,20190328,"imagery","PlanetExplorer","satellite","USGS","Landsat 8","JE",NA
+"51",22,2,NA,NA,30,20190328,"imagery","PlanetExplorer","satellite","USGS","Landsat 8","JE",NA
+"52",22,3,NA,NA,30,20190328,"imagery","PlanetExplorer","satellite","USGS","Landsat 8","JE",NA
+"53",20,1,148.1,1745.421226,0.15,20130115,"imagery","GE","aerial","unknown","unknown","JYR",NA
+"54",20,2,143.65,1642.106789,0.15,20130115,"imagery","GE","aerial","unknown","unknown","JYR",NA
+"55",20,3,151.13,1817.571485,0.15,20130115,"imagery","GE","aerial","unknown","unknown","JYR",NA
+"56",20,1,126.48,1273.015964,0.5,20130822,"imagery","GE","satellite","DigitalGlobe","WorldView-1/2","JYR",NA
+"57",20,2,126.98,1283.100817,0.5,20130822,"imagery","GE","satellite","DigitalGlobe","WorldView-1/2","JYR",NA
+"58",20,3,127.5,1293.631272,0.5,20130822,"imagery","GE","satellite","DigitalGlobe","WorldView-1/2","JYR",NA
+"59",20,1,139.68,1552.59645,1,20110108,"imagery","GE","satellite","DigitalGlobe","Ikonos","JYR",NA
+"60",20,2,138.88,1534.862769,1,20110108,"imagery","GE","satellite","DigitalGlobe","Ikonos","JYR",NA
+"61",20,3,139,1537.516328,1,20110108,"imagery","GE","satellite","DigitalGlobe","Ikonos","JYR",NA
+"62",20,1,143.08,1629.100957,2,20030412,"imagery","GE","satellite","DigitalGlobe","EarlyBird-1 (?)","JYR",NA
+"63",20,2,144.2,1654.705295,2,20030412,"imagery","GE","satellite","DigitalGlobe","EarlyBird-1 (?)","JYR",NA
+"64",20,3,142.36,1612.74645,2,20030412,"imagery","GE","satellite","DigitalGlobe","EarlyBird-1 (?)","JYR",NA
+"65",20,1,149.2,1771.445446,3,20190316,"imagery","PlanetExplorer","satellite","Planet","PlanetScope (formerly Dove CubeSats)","JYR",NA
+"66",20,2,172.33,2363.262219,3,20190316,"imagery","PlanetExplorer","satellite","Planet","PlanetScope (formerly Dove CubeSats)","JYR",NA
+"67",20,3,178.89,2546.608968,3,20190316,"imagery","PlanetExplorer","satellite","Planet","PlanetScope (formerly Dove CubeSats)","JYR",NA
+"68",20,1,153.05,1864.046766,5,20160208,"imagery","PlanetExplorer","satellite","Planet","RapidEye","JYR",NA
+"69",20,2,159.89,2034.383107,5,20160208,"imagery","PlanetExplorer","satellite","Planet","RapidEye","JYR",NA
+"70",20,3,152.41,1848.489816,5,20160208,"imagery","PlanetExplorer","satellite","Planet","RapidEye","JYR",NA
+"71",20,1,NA,NA,10,20180307,"imagery","PlanetExplorer","satellite","ESA","Sentinel-2","JYR",NA
+"72",20,2,NA,NA,10,20180307,"imagery","PlanetExplorer","satellite","ESA","Sentinel-2","JYR",NA
+"73",20,3,NA,NA,10,20180307,"imagery","PlanetExplorer","satellite","ESA","Sentinel-2","JYR",NA
+"74",20,1,147.44,1729.899131,30,20190328,"imagery","PlanetExplorer","satellite","USGS","Landsat 8","JYR",NA
+"75",20,2,152.44,1849.217591,30,20190328,"imagery","PlanetExplorer","satellite","USGS","Landsat 8","JYR",NA
+"76",20,3,151.28,1821.181239,30,20190328,"imagery","PlanetExplorer","satellite","USGS","Landsat 8","JYR",NA
+"77",22,1,117.88,1105.784226,0.15,20130115,"imagery","GE","aerial","unknown","unknown","JYR",NA
+"78",22,2,117.25,1093.996264,0.15,20130115,"imagery","GE","aerial","unknown","unknown","JYR",NA
+"79",22,3,119.28,1132.205856,0.15,20130115,"imagery","GE","aerial","unknown","unknown","JYR",NA
+"80",22,1,106.91,909.5504542,0.5,20130822,"imagery","GE","satellite","DigitalGlobe","WorldView-1/2","JYR",NA
+"81",22,2,102.59,837.5296594,0.5,20130822,"imagery","GE","satellite","DigitalGlobe","WorldView-1/2","JYR",NA
+"82",22,3,119.97,1145.342704,0.5,20130822,"imagery","GE","satellite","DigitalGlobe","WorldView-1/2","JYR",NA
+"83",22,1,124.86,1240.614341,1,20110108,"imagery","GE","satellite","DigitalGlobe","Ikonos","JYR",NA
+"84",22,2,127.24,1288.360665,1,20110108,"imagery","GE","satellite","DigitalGlobe","Ikonos","JYR",NA
+"85",22,3,128.19,1307.670815,1,20110108,"imagery","GE","satellite","DigitalGlobe","Ikonos","JYR",NA
+"86",22,1,129.64,1337.421131,2,20030412,"imagery","GE","satellite","DigitalGlobe","EarlyBird-1 (not 100% sure if this sat's imagery is in Google Earth","JYR",NA
+"87",22,2,128.18,1307.466802,2,20030412,"imagery","GE","satellite","DigitalGlobe","EarlyBird-1 (not 100% sure if this sat's imagery is in Google Earth","JYR",NA
+"88",22,3,135.41,1459.122022,2,20030412,"imagery","GE","satellite","DigitalGlobe","EarlyBird-1 (not 100% sure if this sat's imagery is in Google Earth","JYR",NA
+"89",22,1,113.68,1028.390997,3,20190316,"imagery","PlanetExplorer","satellite","Planet","PlanetScope (formerly Dove CubeSats)","JYR",NA
+"90",22,2,135.65,1464.298887,3,20190316,"imagery","PlanetExplorer","satellite","Planet","PlanetScope (formerly Dove CubeSats)","JYR",NA
+"91",22,3,117.52,1099.040512,3,20190316,"imagery","PlanetExplorer","satellite","Planet","PlanetScope (formerly Dove CubeSats)","JYR",NA
+"92",22,1,116.68,1083.385396,5,20160208,"imagery","PlanetExplorer","satellite","Planet","RapidEye","JYR",NA
+"93",22,2,126.48,1273.015964,5,20160208,"imagery","PlanetExplorer","satellite","Planet","RapidEye","JYR",NA
+"94",22,3,121.02,1165.478948,5,20160208,"imagery","PlanetExplorer","satellite","Planet","RapidEye","JYR",NA
+"95",22,1,NA,NA,10,20180307,"imagery","PlanetExplorer","satellite","ESA","Sentinel-2","JYR",NA
+"96",22,2,NA,NA,10,20180307,"imagery","PlanetExplorer","satellite","ESA","Sentinel-2","JYR",NA
+"97",22,3,NA,NA,10,20180307,"imagery","PlanetExplorer","satellite","ESA","Sentinel-2","JYR",NA
+"98",22,1,120.52,1155.868376,30,20190328,"imagery","PlanetExplorer","satellite","USGS","Landsat 8","JYR",NA
+"99",22,2,124.22,1227.928801,30,20190328,"imagery","PlanetExplorer","satellite","USGS","Landsat 8","JYR",NA
+"100",22,3,120.47,1154.909508,30,20190328,"imagery","PlanetExplorer","satellite","USGS","Landsat 8","JYR",NA
+"101",20,1,146.01,1696.505758,0.15,20130115,"imagery","GE","aerial","unknown","unknown","AV",NA
+"102",20,2,140.4,1568.643852,0.15,20130115,"imagery","GE","aerial","unknown","unknown","AV",NA
+"103",20,3,144.75,1667.351946,0.15,20130115,"imagery","GE","aerial","unknown","unknown","AV",NA
+"104",20,1,145.12,1675.886781,0.5,20130822,"imagery","GE","satellite","DigitalGlobe","WorldView-1/2","AV",NA
+"105",20,2,149.73,1784.053136,0.5,20130822,"imagery","GE","satellite","DigitalGlobe","WorldView-1/2","AV",NA
+"106",20,3,150.8,1809.642633,0.5,20130822,"imagery","GE","satellite","DigitalGlobe","WorldView-1/2","AV",NA
+"107",20,1,135.21,1454.814971,1,20110108,"imagery","GE","satellite","DigitalGlobe","Ikonos","AV",NA
+"108",20,2,132,1386.557864,1,20110108,"imagery","GE","satellite","DigitalGlobe","Ikonos","AV",NA
+"109",20,3,134.43,1438.078301,1,20110108,"imagery","GE","satellite","DigitalGlobe","Ikonos","AV",NA
+"110",20,1,140.37,1567.973563,2,20030412,"imagery","GE","satellite","DigitalGlobe","EarlyBird-1 (?)","AV",NA
+"111",20,2,136.87,1490.756359,2,20030412,"imagery","GE","satellite","DigitalGlobe","EarlyBird-1 (?)","AV",NA
+"112",20,3,145.42,1682.822913,2,20030412,"imagery","GE","satellite","DigitalGlobe","EarlyBird-1 (?)","AV",NA
+"113",20,1,142.04,1605.504264,3,20190316,"imagery","PlanetExplorer","satellite","Planet","PlanetScope (formerly Dove CubeSats)","AV",NA
+"114",20,2,174.21,2415.10656,3,20190316,"imagery","PlanetExplorer","satellite","Planet","PlanetScope (formerly Dove CubeSats)","AV",NA
+"115",20,3,155.96,1935.604348,3,20190316,"imagery","PlanetExplorer","satellite","Planet","PlanetScope (formerly Dove CubeSats)","AV",NA
+"116",20,1,126.25,1268.390293,5,20160208,"imagery","PlanetExplorer","satellite","Planet","RapidEye","AV",NA
+"117",20,2,138.94,1536.189262,5,20160208,"imagery","PlanetExplorer","satellite","Planet","RapidEye","AV",NA
+"118",20,3,126.41,1271.60726,5,20160208,"imagery","PlanetExplorer","satellite","Planet","RapidEye","AV",NA
+"119",20,1,195.96,3055.800499,10,20180307,"imagery","PlanetExplorer","satellite","ESA","Sentinel-2","AV",NA
+"120",20,2,156.14,1940.074851,10,20180307,"imagery","PlanetExplorer","satellite","ESA","Sentinel-2","AV",NA
+"121",20,3,172.02,2354.767443,10,20180307,"imagery","PlanetExplorer","satellite","ESA","Sentinel-2","AV",NA
+"122",20,1,NA,NA,30,20190328,"imagery","PlanetExplorer","satellite","USGS","Landsat 8","AV",NA
+"123",20,2,NA,NA,30,20190328,"imagery","PlanetExplorer","satellite","USGS","Landsat 8","AV",NA
+"124",20,3,NA,NA,30,20190328,"imagery","PlanetExplorer","satellite","USGS","Landsat 8","AV",NA
+"125",22,1,108.19,931.4603603,0.15,20130115,"imagery","GE","aerial","unknown","unknown","AV",NA
+"126",22,2,110,962.8874057,0.15,20130115,"imagery","GE","aerial","unknown","unknown","AV",NA
+"127",22,3,112,998.2198031,0.15,20130115,"imagery","GE","aerial","unknown","unknown","AV",NA
+"128",22,1,105.85,891.6036972,0.5,20130822,"imagery","GE","satellite","DigitalGlobe","WorldView-1/2","AV",NA
+"129",22,2,101.82,825.0045075,0.5,20130822,"imagery","GE","satellite","DigitalGlobe","WorldView-1/2","AV",NA
+"130",22,3,105.62,887.7332002,0.5,20130822,"imagery","GE","satellite","DigitalGlobe","WorldView-1/2","AV",NA
+"131",22,1,112.99,1015.944897,1,20110108,"imagery","GE","satellite","DigitalGlobe","Ikonos","AV",NA
+"132",22,2,112,998.2198031,1,20110108,"imagery","GE","satellite","DigitalGlobe","Ikonos","AV",NA
+"133",22,3,108.29,933.1830534,1,20110108,"imagery","GE","satellite","DigitalGlobe","Ikonos","AV",NA
+"134",22,1,111.54,990.036979,2,20030412,"imagery","GE","satellite","DigitalGlobe","EarlyBird-1 (not 100% sure if this sat's imagery is in Google Earth","AV",NA
+"135",22,2,119.26,1131.826208,2,20030412,"imagery","GE","satellite","DigitalGlobe","EarlyBird-1 (not 100% sure if this sat's imagery is in Google Earth","AV",NA
+"136",22,3,111.75,993.7684383,2,20030412,"imagery","GE","satellite","DigitalGlobe","EarlyBird-1 (not 100% sure if this sat's imagery is in Google Earth","AV",NA
+"137",22,1,108.17,931.1160127,3,20190316,"imagery","PlanetExplorer","satellite","Planet","PlanetScope (formerly Dove CubeSats)","AV",NA
+"138",22,2,109.58,955.5484848,3,20190316,"imagery","PlanetExplorer","satellite","Planet","PlanetScope (formerly Dove CubeSats)","AV",NA
+"139",22,3,105.4,884.0388638,3,20190316,"imagery","PlanetExplorer","satellite","Planet","PlanetScope (formerly Dove CubeSats)","AV",NA
+"140",22,1,91.55,666.970819,5,20160208,"imagery","PlanetExplorer","satellite","Planet","RapidEye","AV",NA
+"141",22,2,120.54,1156.252035,5,20160208,"imagery","PlanetExplorer","satellite","Planet","RapidEye","AV",NA
+"142",22,3,114.26,1038.911552,5,20160208,"imagery","PlanetExplorer","satellite","Planet","RapidEye","AV",NA
+"143",22,1,148.38,1752.027302,10,20180307,"imagery","PlanetExplorer","satellite","ESA","Sentinel-2","AV",NA
+"144",22,2,113.78,1030.201066,10,20180307,"imagery","PlanetExplorer","satellite","ESA","Sentinel-2","AV",NA
+"145",22,3,134.14,1431.880386,10,20180307,"imagery","PlanetExplorer","satellite","ESA","Sentinel-2","AV",NA
+"146",22,1,NA,NA,30,20190328,"imagery","PlanetExplorer","satellite","USGS","Landsat 8","AV",NA
+"147",22,2,NA,NA,30,20190328,"imagery","PlanetExplorer","satellite","USGS","Landsat 8","AV",NA
+"148",22,3,NA,NA,30,20190328,"imagery","PlanetExplorer","satellite","USGS","Landsat 8","AV",NA
+"149",20,1,163.28,1941.6,0.15,20130115,"imagery","GE","aerial","unknown","unknown","GYC","calculate the area, not transform"
+"150",20,2,161.94,1991.54,0.15,20130115,"imagery","GE","aerial","unknown","unknown","GYC","calculate the area, not transform"
+"151",20,3,162.05,2015.74,0.15,20130115,"imagery","GE","aerial","unknown","unknown","GYC","calculate the area, not transform"
+"152",20,1,143.76,1521.6,0.5,20130822,"imagery","GE","satellite","DigitalGlobe","WorldView-1/2","GYC","calculate the area, not transform"
+"153",20,2,135.41,1389.13,0.5,20130822,"imagery","GE","satellite","DigitalGlobe","WorldView-1/2","GYC","calculate the area, not transform"
+"154",20,3,136.48,1383.24,0.5,20130822,"imagery","GE","satellite","DigitalGlobe","WorldView-1/2","GYC","calculate the area, not transform"
+"155",20,1,133.26,1336.53,1,20110108,"imagery","GE","satellite","DigitalGlobe","Ikonos","GYC","calculate the area, not transform"
+"156",20,2,131.17,1284.45,1,20110108,"imagery","GE","satellite","DigitalGlobe","Ikonos","GYC","calculate the area, not transform"
+"157",20,3,130.91,1250.08,1,20110108,"imagery","GE","satellite","DigitalGlobe","Ikonos","GYC","calculate the area, not transform"
+"158",20,1,146.31,1595.01,2,20030412,"imagery","GE","satellite","DigitalGlobe","EarlyBird-1 (?)","GYC","calculate the area, not transform"
+"159",20,2,137.84,1404.58,2,20030412,"imagery","GE","satellite","DigitalGlobe","EarlyBird-1 (?)","GYC","calculate the area, not transform"
+"160",20,3,143.54,1501.92,2,20030412,"imagery","GE","satellite","DigitalGlobe","EarlyBird-1 (?)","GYC","calculate the area, not transform"
+"161",20,1,165.33,2064.72,3,20190316,"imagery","PlanetExplorer","satellite","Planet","PlanetScope (formerly Dove CubeSats)","GYC","calculate the area, not transform"
+"162",20,2,151.34,2188.77,3,20190316,"imagery","PlanetExplorer","satellite","Planet","PlanetScope (formerly Dove CubeSats)","GYC","calculate the area, not transform"
+"163",20,3,157.79,2083.64,3,20190316,"imagery","PlanetExplorer","satellite","Planet","PlanetScope (formerly Dove CubeSats)","GYC","calculate the area, not transform"
+"164",20,1,126.55,1281.9,5,20160208,"imagery","PlanetExplorer","satellite","Planet","RapidEye","GYC","calculate the area, not transform"
+"165",20,2,125.31,1204.34,5,20160208,"imagery","PlanetExplorer","satellite","Planet","RapidEye","GYC","calculate the area, not transform"
+"166",20,3,124.98,1370.41,5,20160208,"imagery","PlanetExplorer","satellite","Planet","RapidEye","GYC","calculate the area, not transform"
+"167",20,1,NA,NA,10,20180307,"imagery","PlanetExplorer","satellite","ESA","Sentinel-2","GYC",""
+"168",20,2,NA,NA,10,20180307,"imagery","PlanetExplorer","satellite","ESA","Sentinel-2","GYC",""
+"169",20,3,NA,NA,10,20180307,"imagery","PlanetExplorer","satellite","ESA","Sentinel-2","GYC",""
+"170",20,1,NA,NA,30,20190328,"imagery","PlanetExplorer","satellite","USGS","Landsat 8","GYC",""
+"171",20,2,NA,NA,30,20190328,"imagery","PlanetExplorer","satellite","USGS","Landsat 8","GYC",""
+"172",20,3,NA,NA,30,20190328,"imagery","PlanetExplorer","satellite","USGS","Landsat 8","GYC",""
+"173",22,1,129.39,1221.43,0.15,20130115,"imagery","GE","aerial","unknown","unknown","GYC","calculate the area, not transform"
+"174",22,2,126.86,1216.07,0.15,20130115,"imagery","GE","aerial","unknown","unknown","GYC","calculate the area, not transform"
+"175",22,3,126.19,1224.11,0.15,20130115,"imagery","GE","aerial","unknown","unknown","GYC","calculate the area, not transform"
+"176",22,1,131.55,1316.02,0.5,20130822,"imagery","GE","satellite","DigitalGlobe","WorldView-1/2","GYC","calculate the area, not transform"
+"177",22,2,129.54,1260.88,0.5,20130822,"imagery","GE","satellite","DigitalGlobe","WorldView-1/2","GYC","calculate the area, not transform"
+"178",22,3,117.98,1080.73,0.5,20130822,"imagery","GE","satellite","DigitalGlobe","WorldView-1/2","GYC","calculate the area, not transform"
+"179",22,1,120.25,1113.05,1,20110108,"imagery","GE","satellite","DigitalGlobe","Ikonos","GYC","calculate the area, not transform"
+"180",22,2,118.4,1058.18,1,20110108,"imagery","GE","satellite","DigitalGlobe","Ikonos","GYC","calculate the area, not transform"
+"181",22,3,110.6,918.4,1,20110108,"imagery","GE","satellite","DigitalGlobe","Ikonos","GYC","calculate the area, not transform"
+"182",22,1,126.43,1191.69,2,20030412,"imagery","GE","satellite","DigitalGlobe","EarlyBird-1 (not 100% sure if this sat's imagery is in Google Earth","GYC","calculate the area, not transform"
+"183",22,2,124.37,1170.19,2,20030412,"imagery","GE","satellite","DigitalGlobe","EarlyBird-1 (not 100% sure if this sat's imagery is in Google Earth","GYC","calculate the area, not transform"
+"184",22,3,133.15,1289.23,2,20030412,"imagery","GE","satellite","DigitalGlobe","EarlyBird-1 (not 100% sure if this sat's imagery is in Google Earth","GYC","calculate the area, not transform"
+"185",22,1,123.86,1296.36,3,20190316,"imagery","PlanetExplorer","satellite","Planet","PlanetScope (formerly Dove CubeSats)","GYC","calculate the area, not transform"
+"186",22,2,123.54,1223.78,3,20190316,"imagery","PlanetExplorer","satellite","Planet","PlanetScope (formerly Dove CubeSats)","GYC","calculate the area, not transform"
+"187",22,3,122.36,1155.09,3,20190316,"imagery","PlanetExplorer","satellite","Planet","PlanetScope (formerly Dove CubeSats)","GYC","calculate the area, not transform"
+"188",22,1,110.75,731.82,5,20160208,"imagery","PlanetExplorer","satellite","Planet","RapidEye","GYC","calculate the area, not transform"
+"189",22,2,101.44,684.26,5,20160208,"imagery","PlanetExplorer","satellite","Planet","RapidEye","GYC","calculate the area, not transform"
+"190",22,3,109.64,725.97,5,20160208,"imagery","PlanetExplorer","satellite","Planet","RapidEye","GYC","calculate the area, not transform"
+"191",22,1,NA,NA,10,20180307,"imagery","PlanetExplorer","satellite","ESA","Sentinel-2","GYC",""
+"192",22,2,NA,NA,10,20180307,"imagery","PlanetExplorer","satellite","ESA","Sentinel-2","GYC",""
+"193",22,3,NA,NA,10,20180307,"imagery","PlanetExplorer","satellite","ESA","Sentinel-2","GYC",""
+"194",22,1,NA,NA,30,20190328,"imagery","PlanetExplorer","satellite","USGS","Landsat 8","GYC",""
+"195",22,2,NA,NA,30,20190328,"imagery","PlanetExplorer","satellite","USGS","Landsat 8","GYC",""
+"196",22,3,NA,NA,30,20190328,"imagery","PlanetExplorer","satellite","USGS","Landsat 8","GYC",""
+"197",20,1,141,1582.079712,NA,20220923,"transect","boat",NA,NA,"transect tape","KV",NA
+"198",20,1,187.7246,2804.351911,NA,20220923,"GPS","boat",NA,NA,"floating GPS","KV",NA
+"199",20,1,131.94,1385.297644,0.5,20130822,"imagery","GE","satellite","DigitalGlobe","WorldView-1/2","KV",NA
+"200",20,2,135.47,1460.415379,0.5,20130822,"imagery","GE","satellite","DigitalGlobe","WorldView-1/2","KV",NA
+"201",20,3,139.01,1537.737561,0.5,20130822,"imagery","GE","satellite","DigitalGlobe","WorldView-1/2","KV",NA
+"202",20,1,134.35,1436.367194,1,20110108,"imagery","GE","satellite","DigitalGlobe","Ikonos","KV",NA
+"203",20,2,138.94,1536.189262,1,20110108,"imagery","GE","satellite","DigitalGlobe","Ikonos","KV",NA
+"204",20,3,139.51,1548.81952,1,20110108,"imagery","GE","satellite","DigitalGlobe","Ikonos","KV",NA
+"205",20,1,146.23,1701.622016,2,20030412,"imagery","GE","satellite","DigitalGlobe","EarlyBird-1 (?)","KV",NA
+"206",20,2,148.61,1757.463056,2,20030412,"imagery","GE","satellite","DigitalGlobe","EarlyBird-1 (?)","KV",NA
+"207",20,3,145.74,1690.237241,2,20030412,"imagery","GE","satellite","DigitalGlobe","EarlyBird-1 (?)","KV",NA
+"208",20,1,160.95,2061.446642,3,20190316,"imagery","PlanetExplorer","satellite","Planet","PlanetScope (formerly Dove CubeSats)","KV",NA
+"209",20,2,154.59,1901.747834,3,20190316,"imagery","PlanetExplorer","satellite","Planet","PlanetScope (formerly Dove CubeSats)","KV",NA
+"210",20,3,165.48,2179.120069,3,20190316,"imagery","PlanetExplorer","satellite","Planet","PlanetScope (formerly Dove CubeSats)","KV",NA
+"211",20,1,123.28,1209.415102,5,20160208,"imagery","PlanetExplorer","satellite","Planet","RapidEye","KV",NA
+"212",20,2,128.04,1304.612294,5,20160208,"imagery","PlanetExplorer","satellite","Planet","RapidEye","KV",NA
+"213",20,3,118.89,1124.814199,5,20160208,"imagery","PlanetExplorer","satellite","Planet","RapidEye","KV",NA
+"214",20,1,208.52,3460.075445,10,20180307,"imagery","PlanetExplorer","satellite","ESA","Sentinel-2","KV",NA
+"215",20,2,195.25,3033.697133,10,20180307,"imagery","PlanetExplorer","satellite","ESA","Sentinel-2","KV",NA
+"216",20,3,174.61,2426.209845,10,20180307,"imagery","PlanetExplorer","satellite","ESA","Sentinel-2","KV",NA
+"217",20,1,375.17,11200.73036,30,20190328,"imagery","PlanetExplorer","satellite","USGS","Landsat 8","KV",NA
+"218",20,2,329.04,8615.639704,30,20190328,"imagery","PlanetExplorer","satellite","USGS","Landsat 8","KV",NA
+"219",20,3,349.45,9717.62701,30,20190328,"imagery","PlanetExplorer","satellite","USGS","Landsat 8","KV",NA
+"220",22,1,105.75,889.9198379,NA,20220923,"transect","boat",NA,NA,"transect tape","KV",NA
+"221",22,1,138.4875,1526.199429,NA,20220923,"GPS","boat",NA,NA,"floating GPS","KV",NA
+"222",22,1,116.84,1086.358665,0.5,20130822,"imagery","GE","satellite","DigitalGlobe","WorldView-1/2","KV",NA
+"223",22,2,110.32,968.4978084,0.5,20130822,"imagery","GE","satellite","DigitalGlobe","WorldView-1/2","KV",NA
+"224",22,3,112.39,1005.183795,0.5,20130822,"imagery","GE","satellite","DigitalGlobe","WorldView-1/2","KV",NA
+"225",22,1,116.5,1080.045338,1,20110108,"imagery","GE","satellite","DigitalGlobe","Ikonos","KV",NA
+"226",22,2,122.6,1196.109876,1,20110108,"imagery","GE","satellite","DigitalGlobe","Ikonos","KV",NA
+"227",22,3,121.27,1170.299154,1,20110108,"imagery","GE","satellite","DigitalGlobe","Ikonos","KV",NA
+"228",22,1,129.46,1333.709797,2,20030412,"imagery","GE","satellite","DigitalGlobe","EarlyBird-1 (not 100% sure if this sat's imagery is in Google Earth","KV",NA
+"229",22,2,125.83,1259.965139,2,20030412,"imagery","GE","satellite","DigitalGlobe","EarlyBird-1 (not 100% sure if this sat's imagery is in Google Earth","KV",NA
+"230",22,3,126.02,1263.773041,2,20030412,"imagery","GE","satellite","DigitalGlobe","EarlyBird-1 (not 100% sure if this sat's imagery is in Google Earth","KV",NA
+"231",22,1,111.125,982.6835452,3,20190316,"imagery","PlanetExplorer","satellite","Planet","PlanetScope (formerly Dove CubeSats)","KV",NA
+"232",22,2,106.31,899.3699491,3,20190316,"imagery","PlanetExplorer","satellite","Planet","PlanetScope (formerly Dove CubeSats)","KV",NA
+"233",22,3,109.84,960.0883159,3,20190316,"imagery","PlanetExplorer","satellite","Planet","PlanetScope (formerly Dove CubeSats)","KV",NA
+"234",22,1,111.96,997.5069163,5,20160208,"imagery","PlanetExplorer","satellite","Planet","RapidEye","KV",NA
+"235",22,2,112.58,1008.585278,5,20160208,"imagery","PlanetExplorer","satellite","Planet","RapidEye","KV",NA
+"236",22,3,111.93,996.9724182,5,20160208,"imagery","PlanetExplorer","satellite","Planet","RapidEye","KV",NA
+"237",22,1,136.52,1483.141869,10,20180307,"imagery","PlanetExplorer","satellite","ESA","Sentinel-2","KV",NA
+"238",22,2,177.36,2503.234272,10,20180307,"imagery","PlanetExplorer","satellite","ESA","Sentinel-2","KV",NA
+"239",22,3,141.93,1603.018526,10,20180307,"imagery","PlanetExplorer","satellite","ESA","Sentinel-2","KV",NA
+"240",22,1,NA,NA,30,20190328,"imagery","PlanetExplorer","satellite","USGS","Landsat 8","KV",NA
+"241",22,2,NA,NA,30,20190328,"imagery","PlanetExplorer","satellite","USGS","Landsat 8","KV",NA
+"242",22,3,NA,NA,30,20190328,"imagery","PlanetExplorer","satellite","USGS","Landsat 8","KV",NA
+"243",20,1,150.63,1805.564836,0.15,20130115,"imagery","GE","aerial","unknown","unknown","KK",NA
+"244",20,2,147.09,1721.695847,0.15,20130115,"imagery","GE","aerial","unknown","unknown","KK",NA
+"245",20,3,132.05,1387.608486,0.15,20130115,"imagery","GE","aerial","unknown","unknown","KK",NA
+"246",20,1,113.03,1016.664341,0.5,20130822,"imagery","GE","satellite","DigitalGlobe","WorldView-1/2","KK",NA
+"247",20,2,111.94,997.1505683,0.5,20130822,"imagery","GE","satellite","DigitalGlobe","WorldView-1/2","KK",NA
+"248",20,3,114.25,1038.72971,0.5,20130822,"imagery","GE","satellite","DigitalGlobe","WorldView-1/2","KK",NA
+"249",20,1,115.19,1055.892469,1,20110108,"imagery","GE","satellite","DigitalGlobe","Ikonos","KK",NA
+"250",20,2,108.45,935.9426728,1,20110108,"imagery","GE","satellite","DigitalGlobe","Ikonos","KK",NA
+"251",20,3,111.25,984.8955502,1,20110108,"imagery","GE","satellite","DigitalGlobe","Ikonos","KK",NA
+"252",20,1,126.32,1269.797214,2,20030412,"imagery","GE","satellite","DigitalGlobe","EarlyBird-1 (?)","KK",NA
+"253",20,2,117.28,1094.556163,2,20030412,"imagery","GE","satellite","DigitalGlobe","EarlyBird-1 (?)","KK",NA
+"254",20,3,124.38,1231.094074,2,20030412,"imagery","GE","satellite","DigitalGlobe","EarlyBird-1 (?)","KK",NA
+"255",20,1,190.28,2881.220005,3,20190316,"imagery","PlanetExplorer","satellite","Planet","PlanetScope (formerly Dove CubeSats)","KK",NA
+"256",20,2,162.89,2111.441156,3,20190316,"imagery","PlanetExplorer","satellite","Planet","PlanetScope (formerly Dove CubeSats)","KK",NA
+"257",20,3,161.26,2069.395245,3,20190316,"imagery","PlanetExplorer","satellite","Planet","PlanetScope (formerly Dove CubeSats)","KK",NA
+"258",20,1,142.15,1607.991927,5,20160208,"imagery","PlanetExplorer","satellite","Planet","RapidEye","KK",NA
+"259",20,2,142.66,1619.550801,5,20160208,"imagery","PlanetExplorer","satellite","Planet","RapidEye","KK",NA
+"260",20,3,134.68,1443.432074,5,20160208,"imagery","PlanetExplorer","satellite","Planet","RapidEye","KK",NA
+"261",20,1,NA,NA,10,20180307,"imagery","PlanetExplorer","satellite","ESA","Sentinel-2","KK",NA
+"262",20,2,NA,NA,10,20180307,"imagery","PlanetExplorer","satellite","ESA","Sentinel-2","KK",NA
+"263",20,3,NA,NA,10,20180307,"imagery","PlanetExplorer","satellite","ESA","Sentinel-2","KK",NA
+"264",20,1,NA,NA,30,20190328,"imagery","PlanetExplorer","satellite","USGS","Landsat 8","KK",NA
+"265",20,2,NA,NA,30,20190328,"imagery","PlanetExplorer","satellite","USGS","Landsat 8","KK",NA
+"266",20,3,NA,NA,30,20190328,"imagery","PlanetExplorer","satellite","USGS","Landsat 8","KK",NA
+"267",22,1,156.7,1954.01606,0.15,20130115,"imagery","GE","aerial","unknown","unknown","KK",NA
+"268",22,2,148.63,1757.936128,0.15,20130115,"imagery","GE","aerial","unknown","unknown","KK",NA
+"269",22,3,150.74,1808.202885,0.15,20130115,"imagery","GE","aerial","unknown","unknown","KK",NA
+"270",22,1,134.03,1429.532954,0.5,20130822,"imagery","GE","satellite","DigitalGlobe","WorldView-1/2","KK",NA
+"271",22,2,144.06,1651.493835,0.5,20130822,"imagery","GE","satellite","DigitalGlobe","WorldView-1/2","KK",NA
+"272",22,3,138.36,1523.390499,0.5,20130822,"imagery","GE","satellite","DigitalGlobe","WorldView-1/2","KK",NA
+"273",22,1,133.25,1412.94277,1,20110108,"imagery","GE","satellite","DigitalGlobe","Ikonos","KK",NA
+"274",22,2,123.5,1213.73549,1,20110108,"imagery","GE","satellite","DigitalGlobe","Ikonos","KK",NA
+"275",22,3,127.4,1291.602842,1,20110108,"imagery","GE","satellite","DigitalGlobe","Ikonos","KK",NA
+"276",22,1,111.53,989.8594655,2,20030412,"imagery","GE","satellite","DigitalGlobe","EarlyBird-1 (not 100% sure if this sat's imagery is in Google Earth","KK",NA
+"277",22,2,119,1126.896575,2,20030412,"imagery","GE","satellite","DigitalGlobe","EarlyBird-1 (not 100% sure if this sat's imagery is in Google Earth","KK",NA
+"278",22,3,114.27,1039.093411,2,20030412,"imagery","GE","satellite","DigitalGlobe","EarlyBird-1 (not 100% sure if this sat's imagery is in Google Earth","KK",NA
+"279",22,1,143.64,1641.878171,3,20190316,"imagery","PlanetExplorer","satellite","Planet","PlanetScope (formerly Dove CubeSats)","KK",NA
+"280",22,2,127.61,1295.864383,3,20190316,"imagery","PlanetExplorer","satellite","Planet","PlanetScope (formerly Dove CubeSats)","KK",NA
+"281",22,3,128.06,1305.01989,3,20190316,"imagery","PlanetExplorer","satellite","Planet","PlanetScope (formerly Dove CubeSats)","KK",NA
+"282",22,1,136.34,1479.233437,5,20160208,"imagery","PlanetExplorer","satellite","Planet","RapidEye","KK",NA
+"283",22,2,139.74,1553.930582,5,20160208,"imagery","PlanetExplorer","satellite","Planet","RapidEye","KK",NA
+"284",22,3,164.32,2148.676275,5,20160208,"imagery","PlanetExplorer","satellite","Planet","RapidEye","KK",NA
+"285",22,1,NA,NA,10,20180307,"imagery","PlanetExplorer","satellite","ESA","Sentinel-2","KK",NA
+"286",22,2,NA,NA,10,20180307,"imagery","PlanetExplorer","satellite","ESA","Sentinel-2","KK",NA
+"287",22,3,NA,NA,10,20180307,"imagery","PlanetExplorer","satellite","ESA","Sentinel-2","KK",NA
+"288",22,1,NA,NA,30,20190328,"imagery","PlanetExplorer","satellite","USGS","Landsat 8","KK",NA
+"289",22,2,NA,NA,30,20190328,"imagery","PlanetExplorer","satellite","USGS","Landsat 8","KK",NA
+"290",22,3,NA,NA,30,20190328,"imagery","PlanetExplorer","satellite","USGS","Landsat 8","KK",NA
