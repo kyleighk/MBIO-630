@@ -1,0 +1,22 @@
+---
+title: "GIS and satellite remote sensing"
+output: html_notebook
+---
+
+```{r}
+library(ggplot2)
+library(raster)
+library(reshape2)
+library(sp)
+library(vcd)
+library(kohonen)
+library(neuralnet)
+
+```
+
+types of information:
+habitat classification
+areas of interest
+points of interset/surveys
+GPS tracks
+

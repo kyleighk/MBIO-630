@@ -51,7 +51,7 @@ would like to answer the questions of how certain reefs around the
 island may have changed with the arrival of covid and the stay-at-home
 order. I would use a high-resolution imagery program like Planet
 Explorer and compare reef areas similar to how we studied the patch reef
-in Kāneʻohe Bay. I would find out how the reefs changed from Haunama
+in Kāneʻohe Bay. I would find out how the reefs changed from Hanauma
 Bay, Ala Moana area, Electrics, and Sharks Cove. Ideally, I would try
 and have some ground truthing to confirm the places I would study with
 the satellite imagery. I would use GPS and transect, likely similar to

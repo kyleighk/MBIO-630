@@ -1,0 +1,258 @@
+---
+title: "Spatial Data Exploration"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = F)
+```
+
+Packages
+```{r, include = T, message =F, echo = T}
+options(timeout = 1200)
+install.packages("sf")
+
+# General Packages
+library(tidyverse)
+library(RColorBrewer)
+# Spatial Packages
+library(sf)
+library(raster)
+
+
+```
+# General GIS
+
+### Loading Files
+The managed areas and fads data comes from https://planning.hawaii.gov/gis/download-gis-data-expanded/
+```{r, echo=FALSE, message = F}
+hawaii <- st_read("../data/hawaii.shp")
+managed<- st_read("../data/MMA_DAR.shp")
+chla<- raster("../data/chlorA.tif")
+fads<- read.csv("../data/fads.csv")
+
+```
+
+
+### Exploring images and harmonizing their coordinate reference systems.
+
+Your study will influence which coordinate reference system you want. For this tutorial, because we are using Hawaii focused data, we will use UTM. UTM is measured in meters and ideal for small scale studies.
+
+
+You can get layer datum and projection details by entering the layer name and looking at the 5th line down.
+```{r}
+hawaii 
+```
+Hawaii is in WGS 84 and UTM zone 4N. We will set all the other spatial layers to this crs.
+What coordinate systems are the other layers in?
+
+```{r}
+
+```
+
+<br>
+In order to transform all the layers to the same system we will need to tell R which crs we are going to use. There are many ways to code coordinate reference systems. Two common ones are epsg and proj4. Find these at epsg.io and enter them below.
+
+```{r, include = T}
+epsg <- ""
+proj4 <- ""
+
+```
+<br>
+
+Then to change coordinate systems you use the commands below.
+
+```{r, include = T}
+# for rasters
+chla.utm <- projectRaster(chla, crs = proj4)
+# for polygons
+managed.utm<- st_transform(managed, crs = epsg)
+```
+
+<br>
+
+The fads object is currently just a dataframe. Below we convert it to a spatial object, tell it what the longitude and latitude columns are (order matters!!), which crs it is in (WGS 84: epsg 4326), and then transforming it to our UTM Zone 4.
+```{r}
+fads.utm<- fads%>%
+  st_as_sf(coords = c("longitude", "latitude"), crs = 4326)%>%
+  st_transform(epsg)
+```
+### Plotting
+
+Let's first look at all the layers separately and then put them together in a prettier plot.
+
+Hawaii
+<br>
+```{r}
+plot(st_geometry(hawaii))
+```
+
+<br>
+
+DAR Managed Areas
+<br>
+```{r}
+plot(st_geometry(managed.utm))
+```
+<br>
+For vector data that contains attribute information if you simply use the function plot on the object instead of st_geometry(object), it will plot each attribute separately.
+<br>
+```{r}
+plot(managed.utm)
+```
+
+<br>
+
+Fish Aggregating Devices
+<br>
+```{r}
+plot(st_geometry(fads.utm))
+```
+
+<br>
+
+Chlorophyll-a
+<br>
+```{r}
+plot(chla.utm)
+```
+
+<br>
+
+From the individual plots we can see that these images have different extents. We  have to control for that in analyses and when plotting the images together. The short cut for plotting is to plot the smallest extent first.
+
+Let's say we're only interested in Fisheries Management Areas we can filter a spatial dataframe the same way we do normal dataframes.   
+
+```{r}
+fma<- managed.utm%>%
+  filter(Major_Clas == "FMA")
+
+```
+
+Below you can see I plotted the chlorophyll-a first to limit the plot extent and then played with the colors to make an more attractive map. 
+
+```{r}
+pal<- brewer.pal(7, "BuGn")
+
+plot(chla.utm, col = pal)
+plot(st_geometry(hawaii), col = "gray80", border = NA, add = T)
+plot(st_geometry(fads.utm), col = "darkblue", add = T, pch = 19)
+plot(st_geometry(fma), add = T)
+```
+<br>
+
+### Converting from vector to raster
+
+
+```{r}
+# 1 Create a blank raster the same size as chla for which there are two options: 
+
+# a) set all chla values to NA 
+new<- chla.utm
+new[]<- NA
+new
+
+
+# b) create a raster and of the same size, extent, and crs. This is slightly longer but the cleaner way to do this.
+new2<- raster(ncol = ncol(chla.utm), nrow= nrow(chla.utm))
+extent(new2)<- extent(chla.utm)
+crs(new2)<- epsg
+
+
+# 2) Use the rasterize function to convert the polygon to the raster
+
+hi.raster<- rasterize(hawaii, new2)
+plot(hi.raster)
+
+
+```
+<br>
+You can also create other types of rasters from this. For example, you could look at distance from land. The code below works because grid cells for Hawaii = 1, and everything else = NA.
+
+```{r}
+pal2<- brewer.pal(9, "Blues")
+dist.land<- distance(hi.raster)
+plot(dist.land/1000, col = pal2)
+
+```
+<br>
+# Working with Satellite Imagery
+
+### Vislualizing satellite imagery
+
+Satellite images are rasters with multiple layers.
+```{r}
+img<- stack("../data/kaneohe/kaneohe.tif")
+img
+
+```
+<br>
+Try plotting the image below. Similar to vectors before, now each layer gets it's own plot.
+```{r}
+plot(img)
+```
+<br>
+Using the plot function without any other information will plot each layer separately. It's great for looking at the influence of each band. However, if we want to visualize the "true color" image, we need to use a different function.
+<br>
+```{r}
+maxval = maxValue(img)[1]
+plotRGB(img, r = 3, g=2, b=1, scale = maxval, stretch ='lin')
+
+
+```
+<br>
+What are is the scale and stretch doing?
+
+```{r, include = F, echo =F}
+?plotRGB
+```
+
+
+
+<br>
+Another important aspect to check with satellite imagery is the quality control. Visit: https://developers.planet.com/docs/data/udm-2/ what does each band mean? What do the plots below mean for the quality of the image above?
+
+
+```{r}
+udm<- stack("../data/kaneohe/kaneohe_udm.tif")
+plot(udm)
+```
+
+<br> 
+Depending on your mapping needs, if there were unclear portions of the map the best solution might be to clip out those areas and not use them or find a different image without the anomalies. 
+
+
+## Raster manipulations
+
+In the lecture portion we discussed some derived products from MODIS satellites. A lot of the power of satellite remote sensing comes from band manipulation/ math. Below we'll play with a Normalized Difference Water Index (NDWI) this is formula can be used to track what areas of have water or not, and how much water. This can be used to display a variety of information: how shorelines change, whether a reef is exposed, or how much water is in a terrestrial environment. In this index, values above 0 are associated with water and values below zero are not associated with water.
+
+```{r}
+## To facilitate this process I created a function to calculate NDWI for us. We are calculating the ratios between the green band (Band 2) and the NIR band (Band 4).
+fun.ndwi <- function(x) {(x[2] - x[4])/(x[2] + x[4])}
+
+# Here we're adding another layer to the stack for the NDWI
+img[[5]]<- calc(img, fun.ndwi)
+
+plot(img[[5]], col = gray(seq(0,1, by = 0.01)))
+
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
