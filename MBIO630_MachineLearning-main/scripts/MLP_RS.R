@@ -9,11 +9,11 @@ set.seed(125)
 
 #### import raster and data set ####
 ## raster
-imp.reef <- raster::brick("data/Reef_20_2022_01_18_20cm_pix.tif")
-imp.reef.sb <- raster("data/Reef_20_2022_01_18_20cm_pix.tif")
+imp.reef <- raster::brick("../data/Reef_20_2022_01_18_20cm_pix.tif")
+imp.reef.sb <- raster("../data/Reef_20_2022_01_18_20cm_pix.tif")
 
 ## dataset
-sampled.points <- read.csv("data/TrainingSet.csv")
+sampled.points <- read.csv("../data/TrainingSet.csv")
 
 ## plot
 plot(imp.reef.sb)

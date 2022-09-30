@@ -8,9 +8,9 @@ library(reshape2)
 set.seed(125)
 
 #### import raster ####
-imp.reef.sb <- raster("data/Reef_20_2022_01_18_20cm_pix.tif")
+imp.reef.sb <- raster("../data/Reef_20_2022_01_18_20cm_pix.tif")
 print(imp.reef.sb)
-imp.reef <- raster::brick("data/Reef_20_2022_01_18_20cm_pix.tif")
+imp.reef <- raster::brick("../data/Reef_20_2022_01_18_20cm_pix.tif")
 print(imp.reef)
 
 #### sampling RGB data from random sample ####
@@ -59,7 +59,7 @@ plot(som.model,
      main = '')
 
 ## generate a plot after training.
-# lbl <- c(".")
+lbl <- c(".")
 plot(som.model,
      type = 'mapping',
      bg = som.events.colors,
@@ -70,12 +70,12 @@ plot(som.model,
 
 
 ## lets take a look to the RGB values distribution
-i <- 1 # where 1=R, 2=G, 3=B
+i <- 3 # where 1=R, 2=G, 3=B
 
 plot.kohonen(som.model, type = "property", property = som.model$codes[,i], 
              main = colnames(sample.rgb)[i],
              palette.name = col.func)
-# add.cluster.boundaries(som.model, som_cluster)
+ add.cluster.boundaries(som.model, som_cluster)
 
 #### clustering ####
 

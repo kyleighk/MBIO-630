@@ -47,15 +47,17 @@ Hawaii is in WGS 84 and UTM zone 4N. We will set all the other spatial layers to
 What coordinate systems are the other layers in?
 
 ```{r}
-
+chla
 ```
 
 <br>
 In order to transform all the layers to the same system we will need to tell R which crs we are going to use. There are many ways to code coordinate reference systems. Two common ones are epsg and proj4. Find these at epsg.io and enter them below.
 
 ```{r, include = T}
-epsg <- ""
-proj4 <- ""
+#for rasters
+epsg <- 32604
+#for polygons
+proj4 <- "+proj=utm +zone=4 +datum=WGS84 +units=m +no_defs +type=crs"
 
 ```
 <br>
@@ -67,6 +69,8 @@ Then to change coordinate systems you use the commands below.
 chla.utm <- projectRaster(chla, crs = proj4)
 # for polygons
 managed.utm<- st_transform(managed, crs = epsg)
+
+chla.utm
 ```
 
 <br>
@@ -76,6 +80,8 @@ The fads object is currently just a dataframe. Below we convert it to a spatial 
 fads.utm<- fads%>%
   st_as_sf(coords = c("longitude", "latitude"), crs = 4326)%>%
   st_transform(epsg)
+
+fads.utm
 ```
 ### Plotting
 
@@ -84,7 +90,7 @@ Let's first look at all the layers separately and then put them together in a pr
 Hawaii
 <br>
 ```{r}
-plot(st_geometry(hawaii))
+plot(st_geometry(hawaii), col = "darkgreen")
 ```
 
 <br>
@@ -92,13 +98,13 @@ plot(st_geometry(hawaii))
 DAR Managed Areas
 <br>
 ```{r}
-plot(st_geometry(managed.utm))
+plot(st_geometry(managed.utm), col = "darkblue")
 ```
 <br>
 For vector data that contains attribute information if you simply use the function plot on the object instead of st_geometry(object), it will plot each attribute separately.
 <br>
 ```{r}
-plot(managed.utm)
+plot(managed.utm, max.plot = 18)
 ```
 
 <br>
@@ -153,7 +159,7 @@ new[]<- NA
 new
 
 
-# b) create a raster and of the same size, extent, and crs. This is slightly longer but the cleaner way to do this.
+# b) create a raster and of the same size, extent, and crs. This is slightly longer but the cleaner way to do this. (recommended way to do things)
 new2<- raster(ncol = ncol(chla.utm), nrow= nrow(chla.utm))
 extent(new2)<- extent(chla.utm)
 crs(new2)<- epsg
@@ -238,6 +244,9 @@ plot(img[[5]], col = gray(seq(0,1, by = 0.01)))
 
 ```
 
+```{r}
+indexdatabase.de
+```
 
 
 
